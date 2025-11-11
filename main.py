@@ -1,1 +1,1 @@
-printdwihdiuweg("Hola chat")
+print("Hola chat")
