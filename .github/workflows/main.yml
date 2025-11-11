@@ -9,5 +9,13 @@ jobs:
     steps:
       - name: Mostrar mensaje
         run: echo "Hola chat actions"
+
+      - name: Bajar codigo
+        uses: actions/checkout@v5
+
+      - name: Probar codigo
+        run: python3 main.py
+
+        
     
     
