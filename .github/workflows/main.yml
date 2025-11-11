@@ -17,7 +17,7 @@ jobs:
         run: python3 main.py
 
       - name: Crear imagen docker
-        run: docker build -t mikelh/holachat
+        run: docker build -t mikelh/holachat .
 
       - name: probar contenedor docker
         run: docker run mikelh/holachat
